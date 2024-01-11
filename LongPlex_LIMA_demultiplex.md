@@ -38,7 +38,6 @@ lima  -j 128   \
 ```
 
 mkdir -p  log_i5 demux_i5
-mkdir -p demux_i5
 
 bam=demux_i7.example.hifi_reads.bc001.unbarcoded.bam
 samp=$(basename $bam .bam)
